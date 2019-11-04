@@ -3,9 +3,7 @@ using namespace std;
 
 double addTwoNumbers(double num1, double num2)
 {
-	double sum;
-	sum = num1 + num2;
-	return sum;
+	return num1 + num2;
 }
 
 int main()
@@ -15,8 +13,7 @@ int main()
 	cout << "Input 2 numbers to add:";
 	cin >> userInput1 >> userInput2;
 
-	sum = addTwoNumbers(userInput1, userInput2);
-	cout << sum;
-
+	cout << addTwoNumbers(userInput1, userInput2);
+	
 	return 0;
 }
